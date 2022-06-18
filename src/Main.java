@@ -111,6 +111,10 @@ public class Main {
         if ( monthNumber > 8 && monthNumber <= 11 ) {
             System.out.println(monthNumber + " месяц осени");
         }
+        if ( monthNumber > 12 ) {
+            System.out.println( " Такого месяца не существует");
+        }
+
     }
 
 
